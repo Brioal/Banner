@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Banner">
+        <!--切换的间隔-->
+        <attr name="banner_change_duration" format="integer"/>
+        <!--停顿的时间-->
+        <attr name="banner_pause_duration" format="integer"/>
+
+    </declare-styleable>
+</resources>
