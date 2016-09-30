@@ -39,7 +39,7 @@ public class BottonLayout extends View {
 
     public BottonLayout(Context context, AttributeSet attrs) {
         super(context, attrs);
-        init(context);
+        init();
     }
 
     public void setCurrentIndex(int currentIndex) {
@@ -58,11 +58,11 @@ public class BottonLayout extends View {
     }
 
 
-    private void init(Context context) {
+    private void init() {
         mDotSum = 5;
         mCurrentIndex = 0;
         mProgress = 0;
-        mNormalColor = getResources().getColor(R.color.colorNormal);
+        mNormalColor = getResources().getColor(R.color.normal);
         mSelectColor = getResources().getColor(R.color.colorSelect);
         mRadius = 8;
         mMagin = 10;
